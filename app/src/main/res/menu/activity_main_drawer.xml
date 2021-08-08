@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_chi"
+            android:icon="@drawable/ic_action_chi"
+            android:title="@string/menu_chi" />
+        <item
+            android:id="@+id/nav_thu"
+            android:icon="@drawable/ic_action_thu"
+            android:title="@string/menu_thu" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/ic_action_thongke"
+            android:title="@string/menu_thongke" />
+
+    </group>
+    <item android:title="@string/menu_gioithieu">
+        <menu>
+            <item android:title="@string/menu_gioithieu" android:id="@+id/nav_gioithieu"
+                android:icon="@drawable/ic_action_info"/>
+            <item android:title="@string/menu_gioithieu" android:id="@+id/nav_thoat"
+                android:icon="@drawable/ic_action_exit"/>
+        </menu>
+    </item>
+</menu>
